@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mic2Bluetooth</string>
+    <string name="status_idle">Idle</string>
+    <string name="status_running">Streaming…</string>
+    <string name="status_permission_denied">Permission denied</string>
+    <string name="status_error">Error: %1$s</string>
+    <string name="output_none">No Bluetooth output detected — pair a speaker first</string>
+    <string name="output_none_sco">No HFP/SCO device — connect headset/earbuds</string>
+    <string name="output_bluetooth">%1$s</string>
+    <string name="low_latency_label">Low latency mode (Bluetooth SCO)</string>
+    <string name="mode_toggle">Toggle</string>
+    <string name="mode_hold">Hold to speak</string>
+    <string name="hint_tap">Tap to speak</string>
+    <string name="hint_hold">Hold to speak</string>
+    <string name="hint_active">Live — tap to stop</string>
+    <string name="hint_active_hold">Live — release to stop</string>
+    <string name="mic_button_desc">Microphone toggle</string>
+</resources>

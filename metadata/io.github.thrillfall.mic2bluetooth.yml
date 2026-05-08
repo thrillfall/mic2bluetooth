@@ -1,0 +1,35 @@
+# F-Droid build recipe.
+#
+# This file is for reference / convenience. It is the metadata format used by
+# the F-Droid main repo at https://gitlab.com/fdroid/fdroiddata. To get the app
+# included on f-droid.org, fork that repo, drop this file into `metadata/`, and
+# open a merge request. F-Droid builds and signs the APK from source on their
+# own infrastructure — you do not publish APKs anywhere yourself.
+#
+# Reference: https://f-droid.org/docs/Submitting_to_F-Droid_Quick_Start_Guide/
+
+Categories:
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: thrillfall
+SourceCode: https://github.com/thrillfall/mic2bluetooth
+IssueTracker: https://github.com/thrillfall/mic2bluetooth/issues
+Changelog: https://github.com/thrillfall/mic2bluetooth/blob/main/CHANGELOG.md
+
+AutoName: Mic2Bluetooth
+
+RepoType: git
+Repo: https://github.com/thrillfall/mic2bluetooth.git
+
+Builds:
+  - versionName: 1.0.0
+    versionCode: 1
+    commit: v1.0.0
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 1.0.0
+CurrentVersionCode: 1

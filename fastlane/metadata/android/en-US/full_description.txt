@@ -1,0 +1,23 @@
+Mic2Bluetooth turns your Android phone into a wireless microphone for any paired Bluetooth speaker, headset, or pair of earbuds. Speak into the phone — hear yourself live on the connected device.
+
+Two routing modes:
+
+* <b>A2DP (default):</b> sends the mic signal as media audio to any Bluetooth speaker. Full audio bandwidth, around 150–250 ms latency due to the Bluetooth audio path.
+* <b>Low latency (SCO):</b> uses the Bluetooth HFP profile for headsets and earbuds. Around 40–80 ms latency, narrowband speech quality. Plain speakers without a microphone profile are not supported in this mode.
+
+Two interaction modes:
+
+* <b>Toggle:</b> tap the big red button to start, tap again to stop.
+* <b>Hold to speak:</b> press and hold the button for push-to-talk; release to stop.
+
+The app auto-detects Bluetooth devices that connect or disconnect while it is open.
+
+<b>Privacy:</b> no network access, no analytics, no ads, no third-party services. Audio is captured from the microphone and routed through the Android audio framework to the selected output device. Nothing is recorded or transmitted off the device.
+
+<b>Permissions:</b>
+
+* RECORD_AUDIO — capture from the microphone.
+* MODIFY_AUDIO_SETTINGS — switch audio routing.
+* BLUETOOTH_CONNECT — required only when low-latency (SCO) mode is enabled, to route to a Bluetooth communication device.
+
+<b>Requirements:</b> Android 12 (API 31) or newer.

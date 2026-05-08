@@ -1,0 +1,1 @@
+Stream the phone's mic live to a Bluetooth speaker or headset.

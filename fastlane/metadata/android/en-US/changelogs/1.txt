@@ -1,0 +1,5 @@
+Initial release.
+
+* Stream microphone live to a paired Bluetooth speaker (A2DP) or headset/earbuds (SCO low-latency).
+* Toggle or hold-to-speak interaction.
+* Auto-detects Bluetooth device connect/disconnect.
