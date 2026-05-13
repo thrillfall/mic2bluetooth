@@ -24,7 +24,7 @@ Repo: https://github.com/thrillfall/mic2bluetooth.git
 Builds:
   - versionName: 1.0.0
     versionCode: 1
-    commit: v1.0.0
+    commit: 1.0.0
     subdir: app
     gradle:
       - yes

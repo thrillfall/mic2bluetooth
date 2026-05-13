@@ -46,11 +46,11 @@ Without those `-P` properties, `assembleRelease` produces an unsigned APK (usefu
 4. Commit, tag, and push:
 
    ```sh
-   git tag v1.0.0
-   git push origin v1.0.0
+   git tag 1.0.0
+   git push origin 1.0.0
    ```
 
-5. The `.github/workflows/release.yml` workflow builds, signs, and attaches `mic2bluetooth-vX.Y.Z.apk` to the GitHub Release.
+5. The `.github/workflows/release.yml` workflow builds, signs, and attaches `mic2bluetooth-X.Y.Z.apk` to the GitHub Release.
 
 ## Submitting to IzzyOnDroid
 
